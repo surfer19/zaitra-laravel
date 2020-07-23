@@ -11,7 +11,7 @@
         @include('home.team')
         @include('home.about')
         @include('home.map')
-{{--        @include('home.footer')--}}
+        @include('home.footer')
         @include('home.scripts')
     </body>
 </html>
