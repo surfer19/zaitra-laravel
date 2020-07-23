@@ -34,11 +34,14 @@
 
     {{-- Compiled CSS   --}}
     <link href="{{ url('css/styles.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ url('css/custom.css') }}" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
 {{--    <link href="font-awesome/css/all.min.css" rel="stylesheet" type="text/css">--}}
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
           rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

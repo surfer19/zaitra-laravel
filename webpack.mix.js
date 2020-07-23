@@ -14,8 +14,12 @@ const mix = require('laravel-mix');
 // mix.js('resources/js/app.js', 'public/js')
 //     .sass('resources/sass/app.scss', 'public/css');
 
-mix.styles([
+mix.js([
+    'resources/js/particles.js',
+    'resources/js/custom.js'
+], 'public/js/app.js')
+.styles([
     'public/css/bootstrap.css',
-    'public/css/custom.css',
     'public/css/stylish-portfolio.css',
-], 'public/css/styles.css');
+], 'public/css/styles.css')
+.sass('resources/sass/app.scss', 'public/css/custom.css');
