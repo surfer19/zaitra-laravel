@@ -32,12 +32,15 @@
 
     <link href="{{ url('images/favicon.png') }}" rel="shortcut icon" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     {{-- Compiled CSS   --}}
     <link href="{{ url('css/styles.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ url('css/custom.css') }}" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
 {{--    <link href="font-awesome/css/all.min.css" rel="stylesheet" type="text/css">--}}
+
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
           rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"

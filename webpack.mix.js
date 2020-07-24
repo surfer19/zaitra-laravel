@@ -19,7 +19,6 @@ mix.js([
     'resources/js/custom.js'
 ], 'public/js/app.js')
 .styles([
-    'public/css/bootstrap.css',
     'public/css/stylish-portfolio.css',
 ], 'public/css/styles.css')
 .sass('resources/sass/app.scss', 'public/css/custom.css');

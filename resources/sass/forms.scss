@@ -1,0 +1,28 @@
+.zaitra-form  {
+    label {
+        color: $grey;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .form-control {
+        border: 1px solid $grey;
+        border-radius: 0.7rem;
+    }
+    input {
+        height: 3rem;
+    }
+    button {
+        width: 100%;
+        padding: 12px 12px;
+        font-weight: bold;
+        background: $cyan;
+        color: $white;
+        border-radius: 0 0 0.7rem 0.7rem;
+        border: none;
+        text-transform: uppercase;
+    }
+    .form-group > textarea {
+        border-radius: 0.7rem 0.7rem 0 0;
+    }
+}
+
