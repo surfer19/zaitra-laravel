@@ -8,7 +8,7 @@
 		</div>
 		<div class="row row-team">
 			<div class="col-md-3 col-sm-6 text-center">
-				<img src="{{ url('images/marek.png') }}" class="img-circle" title="Marek"/>
+				<img src="{{ url('images/marek.png') }}" class="rounded-circle" title="Marek"/>
 				<h4 class="name">Marek Marušin</h4>
 				<p class="subtitle">TechLead & Co-Founder</p>
 				<p>A former freelancer with years of software development experience. Enthusiastic about blockchain projects, open-source development and space industry.</p>
@@ -16,7 +16,7 @@
 				<a href="https://github.com/marusinm" target="_blank"><i class="fab fa-github fa-fw fa-3x social-i icon"></i></a>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center">
-				<img src="{{ url('images/rado.png') }}" class="img-circle" title="Rado"/>
+				<img src="{{ url('images/rado.png') }}" class="rounded-circle" title="Rado"/>
 				<h4 class="name">Rado Pitoňák</h4>
 				<p class="subtitle">Backend developer & Co-Founder</p>
 				<p>Experienced Python developer focused on machine learning, deep learning and earth observation . Open-source contributor and mentor for open-source programs.</p>
@@ -24,7 +24,7 @@
 				<a href="https://github.com/rpitonak" target="_blank"><i class="fab fa-github fa-fw fa-3x social-i icon"></i></a>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center">
-				<img  src="{{ url('images/martin.jpg') }}" class="img-circle" title="Martin"/>
+				<img  src="{{ url('images/martin.jpg') }}" class="rounded-circle" title="Martin"/>
 				<h4 class="name">Martin Javorka</h4>
 				<p class="subtitle">Backend developer & Co-Founder</p>
 				<p>Experienced in web backend, fluent in Python and exploring Earth Observation. Martin is familiar with deploying and maintaining production applications in Rancher/K8S cluster.</p>
@@ -32,7 +32,7 @@
 				<a href="https://github.com/mjavorka" target="_blank"><i class="fab fa-github fa-fw fa-3x social-i icon"></i></a>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center">
-				<img  src="{{ url('images/vasek.jpg') }}" class="img-circle" title="Vasek"/>
+				<img  src="{{ url('images/vasek.jpg') }}" class="rounded-circle" title="Vasek"/>
 				<h4 class="name">Václav Havlíček</h4>
 				<p class="subtitle">Business Development and Marketing</p>
 				<p>Business-focused engineer with wide background and skills, involved in the space industry, innovation, and technology community management.</p>
@@ -40,9 +40,9 @@
 			</div>
 		</div>
 		<!-- /.row -->
-		<div class="row row-team mt-3">
+		<div class="row row-team mt-4">
 			<div class="col-md-3 col-sm-6 text-center">
-				<img src="{{ url('images/majko.jpg') }}" class="img-name img-circle" title="Marian"/>
+				<img src="{{ url('images/majko.jpg') }}" class="img-name rounded-circle" title="Marian"/>
 				<h4 class="name">Marian Mrva</h4>
 				<p class="subtitle">Frontend and UI</p>
 				<p>Skilled JavaScript developer and front-end expert interested in the UX and UI prototypes and design. Proud open-source software contributor.</p>
@@ -50,7 +50,7 @@
 				<a href="https://github.com/surfer19" target="_blank"><i class="fab fa-github fa-fw fa-3x social-i icon"></i></a>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center">
-				<img src="{{ url('images/mato.jpg') }}" class="img-name img-circle" title="Matej"/>
+				<img src="{{ url('images/mato.jpg') }}" class="img-name rounded-circle" title="Matej"/>
 				<h4 class="name">Matej Mrázik</h4>
 				<p class="subtitle">Development and testing</p>
 				<p>Certified ISTQB tester, focused on automatic testing and IoT while being a developer in Java and Python. Matej is also interested in big data and Azure cloud solutions.</p>
@@ -58,7 +58,7 @@
 				<a href="https://github.com/matejmrazik" target="_blank"><i class="fab fa-github fa-fw fa-3x social-i icon"></i></a>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center">
-				<img  src="{{ url('images/shegy.jpg') }}" class="img-name img-circle" title="Martin"/>
+				<img  src="{{ url('images/shegy.jpg') }}" class="img-name rounded-circle" title="Martin"/>
 				<h4 class="name">Martin Šagát</h4>
 				<p class="subtitle">Biomedical solutions</p>
 				<p>Biomedical and bioinformatics engineer with wide technical knowledge including Matlab, Python, image processing, electronics, and biomedical devices. Martin is focused on using AI in medicine and biological sciences.</p>
@@ -66,7 +66,7 @@
 				<a href="https://github.com/Shegy12" target="_blank"><i class="fab fa-github fa-fw fa-3x social-i icon"></i></a>
 			</div>
 			<div class="col-md-3 col-sm-6 text-center">
-				<img  src="{{ url('images/question-mark.jpg') }}" class="img-name img-circle" title="You?"/>
+				<img  src="{{ url('images/question-mark.jpg') }}" class="img-name rounded-circle" title="You?"/>
 				<h4 class="name">You?</h4>
 				<p class="subtitle">We are always looking for talented people!</p>
 			</div>

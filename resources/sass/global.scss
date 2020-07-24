@@ -12,11 +12,10 @@ section {
     align-items: center;
 	justify-content: center;
 	margin-top: 20px;
-	min-height: 140px;
-}
-
-.item-box img {
-	max-height: 5rem;
+    min-height: 140px;
+    img {
+        max-width: 8rem;
+    }
 }
 
 .header {
@@ -25,8 +24,8 @@ section {
     padding: 10px 0 30px;
 }
 
-.img-circle {
-	max-width: 12rem;
+.rounded-circle {
+	max-width: 8rem;
 	transition: all .2s ease-in-out;
 }
 
@@ -49,7 +48,7 @@ section h4 {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 }
 
 .white {
@@ -79,7 +78,7 @@ img {
 	flex-wrap: wrap;
 }
 
-.img-circle:hover {
+.rounded-circle:hover {
     transform: scale(1.1);
 }
 
@@ -98,6 +97,10 @@ img {
 
 .map {
     padding: 0;
+}
+
+.mapouter {
+    height: 50vh!important;
 }
 
 @media (min-width: 992px) {
