@@ -10,6 +10,7 @@
         @include('home.partners')
         @include('home.team')
         @include('home.about')
+        @include('home.news')
         @include('home.contact-us')
         @include('home.map')
         @include('home.footer')
