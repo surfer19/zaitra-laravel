@@ -126,6 +126,37 @@
   background: #0FB9B1;
 }
 
+.navbar-zaitra {
+  background: none;
+  padding: 0.3rem 1rem;
+}
+
+.navbar-zaitra .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 0.8rem;
+}
+
+.navbar-zaitra .navbar-nav .active > .nav-link {
+  color: #0FB9B1;
+}
+
+.navbar-zaitra.fade-in {
+  background: #1D1D1D !important;
+}
+
+@media (min-width: 992px) {
+  .nav-item:not(:first-child):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-right: 2px solid white;
+    height: 22%;
+    margin: auto;
+  }
+}
+
 section {
   padding: 40px 0 100px;
 }

@@ -1,4 +1,28 @@
-<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav class="navbar navbar-zaitra navbar-expand-lg navbar-dark fixed-top" id="menu-toggle">
+    <a class="navbar-brand" href="#">
+        <img src="{{ url('images/zaitra-logo.svg') }}" width="40" height="40" alt="">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PRODUCTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SERVICES</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- OLD navbar for onepage -->
+<!-- <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
 <nav id="sidebar-wrapper">
   <ul class="sidebar-nav">
     <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -30,4 +54,4 @@
       <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
     </li>
   </ul>
-</nav>
+</nav> -->
