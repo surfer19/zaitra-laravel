@@ -47,7 +47,7 @@ section h4 {
     font-style: italic;
 }
 
-img {
+.portfolio-item img {
 	width: 100%;
 }
 
@@ -135,4 +135,19 @@ footer {
 
 .social-i {
     color: #0FB9B1;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li.media {
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    transition: all .2s ease-in-out;
+}
+
+li.media:hover {
+    transform: scale(1.01);
 }

@@ -33,4 +33,18 @@
     .subtitle {
         color: #ffffff;
     }
+    // media
+    .media {
+        color: $white;
+        border-color: $grey;
+    }
+    // buttons
+    .btn-outline-primary {
+        border-color: $cyan;
+        color: $cyan;
+        &:hover {
+            background: $cyan;
+            color: $white;
+        }
+    }
 }

@@ -34,5 +34,18 @@
     .item-box {
         background: #0FB9B1;
     }
-
+    // media
+    .media {
+        color: $grey;
+        border-color: $grey;
+    }
+    // buttons
+    .btn-outline-primary {
+        border-color: $darkGrey;
+        color: $darkGrey;
+        &:hover {
+            background: $darkGrey;
+            color: $white;
+        }
+    }
 }
