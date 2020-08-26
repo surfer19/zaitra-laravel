@@ -1,5 +1,6 @@
 .section-cyan {
   background: #0FB9B1;
+  color: #ffffff;
 }
 
 .section-cyan .header {
@@ -342,6 +343,43 @@ footer {
 
 .social-i {
   color: #0FB9B1;
+}
+
+@media (max-width: 768px) {
+  .content-items {
+    text-align: center;
+  }
+
+  .content-items .circle {
+    text-align: left;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.content-items .content-item-header {
+  font-weight: 700;
+}
+
+.content-items img {
+  width: 100%;
+}
+
+.content-items .circle {
+  background: white;
+  border-radius: 50% 50%;
+  width: 7rem;
+  height: 7rem;
+  position: relative;
+  box-shadow: 10px 18px 35px -15px #5B5B5B;
+}
+
+.content-items .circle img {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  padding: 10px;
 }
 
 a:hover {
