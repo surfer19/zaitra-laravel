@@ -5,6 +5,7 @@
     <body>
         @include('navigation')
         @include('services.header')
+        @include('services.references')
         @include('contact-us')
         @include('map')
         @include('footer')

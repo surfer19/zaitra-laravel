@@ -136,3 +136,35 @@ footer {
 .social-i {
     color: #0FB9B1;
 }
+
+.content-items {
+    @media (max-width: 768px) {
+        text-align: center;
+        .circle {
+            text-align: left;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .content-item-header {
+        font-weight: 700;
+    }
+    .circle {
+        background: white;
+        border-radius: 50% 50%;
+        width: 7rem;
+        height: 7rem;
+        position: relative;
+        -webkit-box-shadow: 10px 18px 35px -15px #5B5B5B;
+        -moz-box-shadow: 10px 18px 35px -15px #5B5B5B;
+        box-shadow: 10px 18px 35px -15px #5B5B5B;
+
+        img {
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            padding: 10px;
+        }
+    }
+}
