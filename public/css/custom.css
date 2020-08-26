@@ -30,6 +30,21 @@
   color: #ffffff;
 }
 
+.section-cyan .media {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.section-cyan .btn-outline-primary {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.section-cyan .btn-outline-primary:hover {
+  background: #ffffff;
+  color: #0FB9B1;
+}
+
 /*
 * GREY
 */
@@ -75,6 +90,21 @@
 }
 
 .section-grey .subtitle {
+  color: #ffffff;
+}
+
+.section-grey .media {
+  color: #ffffff;
+  border-color: #919191;
+}
+
+.section-grey .btn-outline-primary {
+  border-color: #0FB9B1;
+  color: #0FB9B1;
+}
+
+.section-grey .btn-outline-primary:hover {
+  background: #0FB9B1;
   color: #ffffff;
 }
 
@@ -124,6 +154,21 @@
 
 .section-white .item-box {
   background: #0FB9B1;
+}
+
+.section-white .media {
+  color: #919191;
+  border-color: #919191;
+}
+
+.section-white .btn-outline-primary {
+  border-color: #1D1D1D;
+  color: #1D1D1D;
+}
+
+.section-white .btn-outline-primary:hover {
+  background: #1D1D1D;
+  color: #ffffff;
 }
 
 .navbar-zaitra {
@@ -207,7 +252,7 @@ section h4 {
   font-style: italic;
 }
 
-img {
+.portfolio-item img {
   width: 100%;
 }
 
@@ -297,6 +342,21 @@ footer {
 
 .social-i {
   color: #0FB9B1;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li.media {
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  transition: all 0.2s ease-in-out;
+}
+
+li.media:hover {
+  transform: scale(1.01);
 }
 
 footer {
@@ -463,5 +523,9 @@ a span {
 
 .zaitra-form .form-group > textarea {
   border-radius: 0.7rem 0.7rem 0 0;
+}
+
+.btn {
+  padding: 0.375rem 2rem;
 }
 
