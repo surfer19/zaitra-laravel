@@ -7,14 +7,14 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
+        <a class="nav-link" href="{{ url('/') }}">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">PRODUCTS</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">SERVICES</a>
+      <li class="nav-item {{ Request::is('services') ? 'active' : '' }}">
+        <a class="nav-link" href="{{ url('/services') }}">SERVICES</a>
       </li>
     </ul>
   </div>
