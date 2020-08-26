@@ -1,3 +1,40 @@
+// navbar
+.navbar-zaitra {
+    background: none;
+    padding: .3rem 1rem;
+    .navbar-nav {
+        .nav-link {
+            color: white;
+            font-size: 1.2rem;
+            padding: 0 0.8rem;
+        }
+        .active {
+            & > .nav-link {
+                color: $cyan;
+            }
+        }
+    }
+    &.fade-in {
+        background: $darkGrey!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        &:not(:first-child) {
+            &:after  {
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                border-right: 2px solid white;
+                height: 22%;
+                margin: auto;
+            }
+        }
+    }
+}
+
 section {
     padding: 40px 0 100px;
 }
@@ -47,7 +84,7 @@ section h4 {
     font-style: italic;
 }
 
-img {
+.portfolio-item img {
 	width: 100%;
 }
 
@@ -167,4 +204,19 @@ footer {
             padding: 10px;
         }
     }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li.media {
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    transition: all .2s ease-in-out;
+}
+
+li.media:hover {
+    transform: scale(1.01);
 }

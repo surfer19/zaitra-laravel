@@ -22,4 +22,18 @@
     i {
         color: #ffffff;
     }
+    // media
+    .media {
+        color: $white;
+        border-color: $white;
+    }
+    // buttons
+    .btn-outline-primary {
+        border-color: $white;
+        color: $white;
+        &:hover {
+            background: $white;
+            color: $cyan;
+        }
+    }
 }

@@ -38,7 +38,7 @@
         <div class="col-md-6 order-3">
             <div class="portfolio-item">
                 <a href="https://github.com/zaitra" target="_blank">
-                <img class="" src="{{ url('images/opensource.svg') }}" title="Our open source projects">
+                    <img class="" src="{{ url('images/opensource.svg') }}" title="Our open source projects">
                 </a>
             </div>
         </div>
