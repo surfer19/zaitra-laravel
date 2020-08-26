@@ -361,6 +361,10 @@ footer {
   font-weight: 700;
 }
 
+.content-items img {
+  width: 100%;
+}
+
 .content-items .circle {
   background: white;
   border-radius: 50% 50%;
