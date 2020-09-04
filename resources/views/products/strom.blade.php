@@ -92,6 +92,11 @@
                         </p>
                     </div>
                 </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <a href="#" class="btn btn-zaitra-primary">LEARN MORE</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

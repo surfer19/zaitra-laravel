@@ -431,6 +431,16 @@ li.media:hover {
   transform: translate(-50%, -50%);
 }
 
+.btn-zaitra-primary {
+  border: 1px solid #0FB9B1;
+  color: #0FB9B1;
+}
+
+.btn-zaitra-primary:hover {
+  background: #0FB9B1;
+  color: white;
+}
+
 .product-section {
   display: table;
   position: relative;

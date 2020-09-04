@@ -250,6 +250,19 @@ li.media:hover {
         transform: translate(-50%, -50%);
     }
 }
+
+// buttons
+
+.btn-zaitra-primary {
+    border: 1px solid $cyan;
+    color: $cyan;
+
+    &:hover {
+        background: $cyan;
+        color: white;
+    }
+}
+
 .product-section {
     display: table;
     position: relative;
