@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirect to Laravel's public folder
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+
+
+# https
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
