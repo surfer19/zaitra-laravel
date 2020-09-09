@@ -2,7 +2,7 @@
  * GREY
  */
  .section-grey {
-    background: #1D1D1D;
+    background-color: #1D1D1D;
     .header {
         color: #0FB9B1;
     }
@@ -40,11 +40,20 @@
     }
     // buttons
     .btn-outline-primary {
-        border-color: $cyan;
+        border-color: $grey;
         color: $cyan;
         &:hover {
             background: $cyan;
             color: $white;
+        }
+    }
+    .btn-zaitra-primary {
+        border: 1px solid $cyan;
+        color: $cyan;
+
+        &:hover {
+            background: $cyan;
+            color: white;
         }
     }
 }

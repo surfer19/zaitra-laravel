@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="308px" height="929px" viewBox="0 0 308 929" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>WEB_V2_SERVICES</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WEB_V2_SERVICES" transform="translate(-1132.000000, -93.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="3664"></rect>
+            <rect id="Rectangle" fill="#1D1D1D" x="0" y="0" width="1440" height="1022"></rect>
+            <g id="Group-17" transform="translate(1023.000000, 24.000000)">
+                <g id="Group-3-Copy-6" transform="translate(332.621677, 828.246202) rotate(-131.000000) translate(-332.621677, -828.246202) translate(106.621677, 689.246202)">
+                    <path d="M36,88 L93,47" id="Line-2" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M93,47 L203,7" id="Line-3" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M201,7 L248.5,32.5" id="Line-4" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M248.5,32.5 L229,82.5" id="Line-5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M229,82.5 L196,140.5" id="Line-6" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M196,137 L147,201" id="Line-7" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M308,202.5 L154,202.5" id="Line-8-Copy" stroke-opacity="0.5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M451.770087,277.034538 L308,202" id="Line-8-Copy-2" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M148,201 L36,88" id="Line-9" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M93,47 L147,201" id="Line-10" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M196,140.5 L36,88" id="Line-11" stroke-opacity="0.5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <polyline id="Line-11-Copy" stroke="#4B6584" stroke-linecap="square" points="308 202.364948 196 137 290.704269 258"></polyline>
+                    <path d="M229,82.5 L201,7" id="Line-12" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M308,203 L205,126" id="Line-12-Copy" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M248.5,32.5 L93,47" id="Line-13" stroke-opacity="0.5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M229,81 L36,88" id="Line-14" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M196,140.5 L201,7" id="Line-15" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M204.5,125.5 L201,7" id="Line-16" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M451.956483,277.739929 L291,260" id="Line-16-Copy" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M291,261 L308,202" id="Line-17" stroke="#4B6584" stroke-linecap="square"></path>
+                    <circle id="Oval" stroke="#0FB9B1" fill="#0FB9B1" cx="36" cy="88" r="7"></circle>
+                    <circle id="Oval-Copy-12" stroke="#0FB9B1" fill="#0FB9B1" cx="291.5" cy="259.5" r="3.5"></circle>
+                    <circle id="Oval-Copy-7" stroke="#0FB9B1" fill="#0FB9B1" cx="248.5" cy="32.5" r="3.5"></circle>
+                    <circle id="Oval-Copy-8" stroke="#0FB9B1" fill="#0FB9B1" cx="204.5" cy="125.5" r="3.5"></circle>
+                    <circle id="Oval-Copy-2" stroke="#0FB9B1" fill="#0FB9B1" cx="93" cy="47" r="5"></circle>
+                    <circle id="Oval-Copy-4" stroke="#0FB9B1" fill="#0FB9B1" cx="229" cy="81" r="5"></circle>
+                    <circle id="Oval-Copy" stroke="#0FB9B1" fill="#0FB9B1" cx="201" cy="7" r="7"></circle>
+                    <circle id="Oval-Copy-6" stroke="#0FB9B1" fill="#0FB9B1" cx="196" cy="137" r="7"></circle>
+                    <circle id="Oval-Copy-9" stroke="#0FB9B1" fill="#0FB9B1" cx="308" cy="202" r="7"></circle>
+                </g>
+                <g id="Group-3-Copy-3" transform="translate(392.426638, 157.000000) rotate(-25.000000) translate(-392.426638, -157.000000) translate(217.926638, 66.000000)">
+                    <path d="M3.71449391,132.88412 L28.335706,60.8841202" id="Line" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M28.3625448,60.8124292 L71.3625448,32.8124292" id="Line-2" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M71.2898648,33.1756938 L154.289865,6.17569381" id="Line-3" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M152.847314,6.22230818 L188.472314,23.8761543" id="Line-4" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M189.141162,23.2002187 L174.516162,57.5139442" id="Line-5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M173.814,57.9340892 L148.814,97.2561231" id="Line-6" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M149.234059,94.129081 L112.234059,138.129081" id="Line-7" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M112.250627,138.714523 L3.62909918,131.047857" id="Line-8" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M233.492486,139.944689 L117.492486,139.944689" id="Line-8-Copy" stroke-opacity="0.5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M113.279709,138.451137 L28.2797085,61.4511369" id="Line-9" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M71.2469301,33.2604493 L112.24693,138.260449" id="Line-10" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M148.835448,97.2879812 L27.8354484,61.6276039" id="Line-11" stroke-opacity="0.5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <polyline id="Line-11-Copy" stroke="#4B6584" stroke-linecap="square" points="233.972574 139.691988 148.972574 94.8548745 220.84635 177.854874"></polyline>
+                    <path d="M173.519115,57.2193981 L152.519115,5.5615034" id="Line-12" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M234.01352,139.687835 L156.01352,86.6878352" id="Line-12-Copy" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M188.868472,22.8677618 L71.2466769,32.5344285" id="Line-13" stroke-opacity="0.5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M174.209412,56.2287744 L28.2094115,61.2287744" id="Line-14" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M149.504613,97.4831219 L153.504613,5.8264055" id="Line-15" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M155.228834,86.9122099 L152.603834,6.25254606" id="Line-16" stroke="#4B6584" stroke-linecap="square"></path>
+                    <ellipse id="Oval" stroke="#0FB9B1" fill="#0FB9B1" cx="27.9890154" cy="61.4257351" rx="5.5" ry="5"></ellipse>
+                    <ellipse id="Oval-Copy-5" stroke="#0FB9B1" fill="#0FB9B1" cx="112.241476" cy="137.992849" rx="5.5" ry="5"></ellipse>
+                    <circle id="Oval-Copy-3" stroke="#0FB9B1" fill="#0FB9B1" cx="3.29031401" cy="130.318581" r="2.5"></circle>
+                    <circle id="Oval-Copy-7" stroke="#0FB9B1" fill="#0FB9B1" cx="188.304126" cy="23.0810428" r="2.5"></circle>
+                    <circle id="Oval-Copy-8" stroke="#0FB9B1" fill="#0FB9B1" cx="155.239785" cy="87.0478264" r="2.5"></circle>
+                    <ellipse id="Oval-Copy-2" stroke="#0FB9B1" fill="#0FB9B1" cx="71.4942295" cy="32.8635862" rx="4" ry="3.5"></ellipse>
+                    <ellipse id="Oval-Copy-4" stroke="#0FB9B1" fill="#0FB9B1" cx="174.187963" cy="56.6962767" rx="4" ry="3.5"></ellipse>
+                    <ellipse id="Oval-Copy" stroke="#0FB9B1" fill="#0FB9B1" cx="152.998419" cy="5.33964884" rx="5.5" ry="5"></ellipse>
+                    <ellipse id="Oval-Copy-6" stroke="#0FB9B1" fill="#0FB9B1" cx="149.226642" cy="94.2653127" rx="5.5" ry="5"></ellipse>
+                </g>
+                <g id="Group-3-Copy-5" transform="translate(368.500000, 410.000000) scale(1, -1) rotate(94.000000) translate(-368.500000, -410.000000) translate(211.000000, 298.000000)">
+                    <path d="M3.72300234,206.677671 L36.2230023,94.6776713" id="Line" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M35.9392258,95.3701079 L92.9392258,51.3701079" id="Line-2" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M248.617569,36.1884828 L229.117569,89.1296593" id="Line-5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M229.06335,89.1853466 L196.06335,151.11755" id="Line-6" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M195.720061,147.184083 L146.720061,215.184083" id="Line-7" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M147.457331,215.932966 L3.95733054,203.474633" id="Line-8" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M308.335375,216.576865 L154.335375,216.576865" id="Line-8-Copy" stroke-opacity="0.5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M147.711518,215.666942 L35.7115184,94.6669419" id="Line-9" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M92.7445284,51.1578449 L146.744528,215.157845" id="Line-10" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M195.55549,151.388616 L35.5554895,94.926352" id="Line-11" stroke-opacity="0.5" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M228.628467,89.3019927 L200.628467,8.83488741" id="Line-12" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M307.582762,217.252347 L204.582762,135.252347" id="Line-12-Copy" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M228.811878,87.1777115 L35.8118776,94.1777115" id="Line-14" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M196.23013,150.985061 L201.23013,8.51864342" id="Line-15" stroke="#4B6584" stroke-linecap="square"></path>
+                    <path d="M204.694777,135.154517 L201.194777,8.68813067" id="Line-16" stroke="#4B6584" stroke-linecap="square"></path>
+                    <ellipse id="Oval" stroke="#0FB9B1" fill="#0FB9B1" cx="36.3713376" cy="94.8804228" rx="7" ry="7.5"></ellipse>
+                    <ellipse id="Oval-Copy-5" stroke="#0FB9B1" fill="#0FB9B1" cx="147.051699" cy="215.453461" rx="7" ry="7.5"></ellipse>
+                    <circle id="Oval-Copy-3" stroke="#0FB9B1" fill="#0FB9B1" cx="3.82808352" cy="202.913689" r="3.5"></circle>
+                    <circle id="Oval-Copy-8" stroke="#0FB9B1" fill="#0FB9B1" cx="204.561864" cy="134.745153" r="3.5"></circle>
+                    <ellipse id="Oval-Copy-4" stroke="#0FB9B1" fill="#0FB9B1" cx="229.319738" cy="87.4028077" rx="5" ry="5.5"></ellipse>
+                    <ellipse id="Oval-Copy-6" stroke="#0FB9B1" fill="#0FB9B1" cx="196.385987" cy="146.844948" rx="7" ry="7.5"></ellipse>
+                    <ellipse id="Oval-Copy-9" stroke="#0FB9B1" fill="#0FB9B1" cx="307.499025" cy="216.263194" rx="7" ry="7.5"></ellipse>
+                </g>
+            </g>
+            <text id="OUR-SERVICES" font-family="KohinoorTelugu-Medium, Kohinoor Telugu" font-size="45.81857" font-weight="400" fill="#FFFFFF">
+                <tspan x="571.616561" y="141">OUR SERVICES</tspan>
+            </text>
+            <text id="We-love-to-create-cu" font-family="KohinoorTelugu-Medium, Kohinoor Telugu" font-size="24.81857" font-weight="400" fill="#FFFFFF">
+                <tspan x="431.275271" y="228">We love to create custom solutions in these areas:</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

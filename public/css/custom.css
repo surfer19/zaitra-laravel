@@ -46,12 +46,22 @@
   color: #0FB9B1;
 }
 
+.section-cyan .btn-zaitra-primary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.section-cyan .btn-zaitra-primary:hover {
+  background: #ffffff;
+  color: #0FB9B1;
+}
+
 /*
 * GREY
 */
 
 .section-grey {
-  background: #1D1D1D;
+  background-color: #1D1D1D;
 }
 
 .section-grey .header {
@@ -100,13 +110,23 @@
 }
 
 .section-grey .btn-outline-primary {
-  border-color: #0FB9B1;
+  border-color: #919191;
   color: #0FB9B1;
 }
 
 .section-grey .btn-outline-primary:hover {
   background: #0FB9B1;
   color: #ffffff;
+}
+
+.section-grey .btn-zaitra-primary {
+  border: 1px solid #0FB9B1;
+  color: #0FB9B1;
+}
+
+.section-grey .btn-zaitra-primary:hover {
+  background: #0FB9B1;
+  color: white;
 }
 
 .section-white {
@@ -477,6 +497,15 @@ li.media:hover {
   display: inline-block;
   margin: 0;
   padding: 0;
+}
+
+.section-products {
+  background: url("/images/satellite.svg") no-repeat 110% 105% scroll;
+}
+
+.section-services {
+  background: url("/images/rocket.svg") no-repeat 102% 105% scroll;
+  background-size: 25% 28%;
 }
 
 footer {
