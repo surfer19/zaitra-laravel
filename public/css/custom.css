@@ -508,6 +508,12 @@ li.media:hover {
   background-size: 25% 28%;
 }
 
+@media (min-width: 1000px) {
+  .particles-bg {
+    background: url("/images/particles-bg.svg") no-repeat 105% -15% scroll;
+  }
+}
+
 footer {
   background: #1D1D1D;
   padding: 15px 0;

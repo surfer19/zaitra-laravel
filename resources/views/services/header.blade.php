@@ -1,4 +1,5 @@
 <section id="top" class="section-grey">
+    <div class="particles-bg">
     <div class="container">
         <div class="row text-center">
             <h2 class="header">Services</h2>
@@ -110,6 +111,7 @@
                 </div>
             </div>
         </div>
+  </div>
   </div>
   <!-- /.container -->
 </section>
