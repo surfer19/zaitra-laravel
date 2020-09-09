@@ -18,7 +18,7 @@
                     </div>
                     <div class="row text-center">
                         <div class="col-md-12">
-                            <a href="{{url('/products')}}" class="btn btn-zaitra-primary">LEARN MORE</a>
+                            <a href="{{url('/products')}}" class="btn btn-zaitra-primary">SEE MORE WHAT WE DO</a>
                         </div>
                     </div>
                 </section>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="row text-center">
                         <div class="col-md-12">
-                            <a href="{{url('/services')}}" class="btn btn-zaitra-primary">LEARN MORE</a>
+                            <a href="{{url('/services')}}" class="btn btn-zaitra-primary">CHECK OUR SERVICES</a>
                         </div>
                     </div>
                 </section>
