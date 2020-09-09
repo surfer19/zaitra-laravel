@@ -15,7 +15,5 @@
 		  <img src="{{ url('images/copernicus-accelerator.svg') }}" title="Copernicus accelerator logo" />
 	  </div>
     </div>
-    <!-- /.row -->
   </div>
-  <!-- /.container -->
 </section>
