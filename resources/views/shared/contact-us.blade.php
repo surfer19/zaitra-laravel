@@ -5,17 +5,6 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-
-            @if ($errors->any())
-                <div class="alert alert-danger">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
-
             <form id="contactForm" class="zaitra-form" action="{{ route('contact') }}" method="POST">
                 @csrf
 				<div class="form-group">
@@ -30,6 +19,15 @@
 					<label for="message">Message</label>
 					<textarea class="form-control" id="message" name="message" placeholder="Type message" rows="5"></textarea>
 				</div>
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
 				<button type="submit" class="btn btn-default">Submit message</button>
 			</form>
 		</div>

@@ -2,16 +2,13 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
-                <h2 class="header">Who we are</h2>
+                <h2 class="header">@lang('home.about_us.title')</h2>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-12">
                 <p class="description">
-                    Friendship, technological excellence, artificial intelligence, space industry.
-                    These words define our startup. We started on hackathons, as of today,
-                    we have multiple own projects while outsourcing software development and artificial intelligence services to other companies.
-                    Do you feel a possible fit here? Don't hesitate to contact us!
+                    @lang('home.about_us.description')
                 </p>
             </div>
         </div>

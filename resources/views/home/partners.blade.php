@@ -6,22 +6,22 @@
         <div class="row text-center">
             <div class="col-md-3 mt-5">
                 <a href="https://www.sabaerospace.cz/" target="_blank">
-                    <img src="{{ url('images/sab-logo.svg') }}" width="200" title="SAB Aerospace">
+                    <img src="{{ asset('images/sab-logo.svg') }}" width="200" title="SAB Aerospace">
                 </a>
             </div>
             <div class="col-md-3 mt-5">
                 <a href="https://www.technest.cz/" target="_blank">
-                    <img src="{{ url('images/technest.png') }}" title="Technest">
+                    <img src="{{ asset('images/technest.png') }}" title="Technest">
                 </a>
 			</div>
 			<div class="col-md-3 mt-5">
                 <a href="https://www.dronetag.cz/" target="_blank">
-                    <img src="{{ url('images/dronetag-logo.svg') }}" title="Dronetag">
+                    <img src="{{ asset('images/dronetag-logo.svg') }}" title="Dronetag">
                 </a>
             </div>
             <div class="col-md-3 mt-5">
                 <a href="https://www.huld.io/" target="_blank">
-                    <img src="{{ url('images/huld.svg') }}" title="Hul">
+                    <img src="{{ asset('images/huld.svg') }}" title="Hul">
                 </a>
 			</div>
         </div><!-- /.row -->

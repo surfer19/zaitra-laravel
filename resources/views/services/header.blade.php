@@ -20,11 +20,10 @@
                         <i class="fas fa-satellite fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4>
-                     <strong>Earth Observation</strong>
+                     <strong>@lang('services.eo.title')</strong>
                     </h4>
                     <p>
-                    We are combining satellite imagery with AI to analyze this data,
-                    addressing the biggest possible potential of Earth Observation.
+                        @lang('services.eo.description')
                     </p>
                 </div>
             </div>
@@ -36,10 +35,10 @@
                         <i class="fas fa-robot fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4>
-                        <strong>Artificial Intelligence</strong>
+                        <strong>@lang('services.ai.title')</strong>
                     </h4>
                     <p>
-                    Let's find out if your<br> software product could work better with the help of machine learning algorithms.
+                        @lang('services.ai.description')
                     </p>
                 </div>
             </div>
@@ -51,11 +50,14 @@
                         <i class="fas fa-space-shuttle fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4>
-                    <strong>Aerospace</strong>
+                        <strong>@lang('services.aerospace.title')</strong>
                     </h4>
                     <p>
-                    <!-- Our software development background and mentors from the aerospace sector will help create powerful solutions for you. -->
-                    Our software skills +<br> experts from <a class="link" target="_blank" href="https://www.sabaerospace.cz/cs">SAB Aerospace</a> =<br> powerful solutions for your company.
+                        @lang('services.aerospace.description.part_1')
+                        <a class="link" target="_blank" href="https://www.sabaerospace.cz/cs">
+                            @lang('services.aerospace.description.link')
+                        </a>
+                        @lang('services.aerospace.description.part_2')
                     </p>
                 </div>
             </div>
@@ -70,11 +72,10 @@
                         <i class="fas fa-code fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4>
-                        <strong>Software Development</strong>
+                        <strong>@lang('services.software.title')</strong>
                     </h4>
                     <p>
-                    We are also engaged in custom software development projects.
-                    We would love to work on one with you and unlock the potential.
+                        @lang('services.software.description')
                     </p>
                 </div>
             </div>
@@ -83,14 +84,13 @@
                 <div class="service-item">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x circle-icon"></i>
-                        <i class="fas fa-cloud fa-stack-1x fa-inverse"></i>
+                        <i class="fas fa-image fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4>
-                        <strong>Cloudless Mosaic</strong>
+                        <strong>@lang('services.mosaic.title')</strong>
                     </h4>
                     <p>
-                    TODO: CHANGE TEXT! We are also engaged in custom software development projects.
-                    We would love to work on one with you and unlock the potential.
+                        @lang('services.mosaic.description')
                     </p>
                 </div>
             </div>
@@ -102,11 +102,10 @@
                         <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4>
-                        <strong>ESA Tenders</strong>
+                        <strong>@lang('services.esa_tenders.title')</strong>
                     </h4>
                     <p>
-                    TODO: CHANGE TEXT! We are also engaged in custom software development projects.
-                    We would love to work on one with you and unlock the potential.
+                        @lang('services.esa_tenders.description')
                     </p>
                 </div>
             </div>
