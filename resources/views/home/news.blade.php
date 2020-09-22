@@ -22,7 +22,7 @@
                     </a >
                     <a href="https://www.dobrenoviny.sk/c/189562/chlapci-spod-tatier-mapovat-vyskyt-lykozrutov-a-nasledky-sucha" class="media-link" target="_blank">
                         <li class="media align-items-center my-4">
-                            <img class="mr-3" src="{{ url('images/dobre-noviny.png') }}" width="100" alt="Generic placeholder image">
+                            <img class="mr-3" src="{{ url('images/dobre-noviny.png') }}" width="100" alt="Dobre noviny image">
                             <div class="media-body">
                                 <h3 class="mt-0 mb-1">@lang('home.news.dobre_noviny.title')</h3>
                                 <p>09.09.2020</p>
