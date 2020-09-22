@@ -19,4 +19,10 @@ return [
     of the process. Does your company need help to automate Machine Learning pipelines or  Earth Observation data
     processing? We have helped our customers to design and deploy their applications to modern cloud environments
     and build custom software solutions to optimize their processes.',
+    'news.copernicus_accelerator.title' => 'Zaitra is listed in Copernicus accelerator portfolio',
+    'news.copernicus_accelerator.description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula nisi et tortor venenatis vestibulum. Nulla facilisi. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.',
+    'news.dobre_noviny.title' => 'Dobré noviny - Chlapci spod Tatier dokážu odsledovať výskyt lykožrútov aj nelegálnu ťažbu',
+    'news.dobre_noviny.description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula nisi et tortor venenatis vestibulum. Nulla facilisi. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.',
+    'news.hospodarske_noviny.title' => 'Hospodářské noviny - Najdeme kůrovce či slevy v okolí, propojíme satelity. Kosmická agentura podpořila další start-upy',
+    'news.hospodarske_noviny.description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula nisi et tortor venenatis vestibulum. Nulla facilisi. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.',
 ];

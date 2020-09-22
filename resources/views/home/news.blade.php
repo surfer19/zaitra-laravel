@@ -1,4 +1,4 @@
-<section id="news" class="section-grey">
+<section id="news" class="section-cyan">
 	<div class="container">
         <div class="row">
 			<div class="col-md-12">
@@ -8,25 +8,38 @@
         <div class="row">
             <div class="col-12">
                 <ul class="list-unstyled">
-                    <a href="#" class="media-link" target="_blank">
+                    <a href="https://accelerator.copernicus.eu/portfolio/zaitra/" class="media-link" target="_blank">
                         <li class="media align-items-center">
-                            <img class="mr-3" src="{{ url('images/zaitra-rocket.png') }}" width="100" alt="Generic placeholder image">
+                            <img class="mr-3" src="{{ url('images/copernicus-accelerator.svg') }}" width="100" alt="Copernicus accelerator logo">
                             <div class="media-body">
-                                <h3 class="mt-0 mb-1">Lorem ipsum dolor sit amet</h3>
-                                <p>12.12.2012</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula nisi et tortor venenatis vestibulum. Nulla facilisi. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.</p>
+                                <h3 class="mt-0 mb-1">@lang('home.news.copernicus_accelerator.title')</h3>
+                                <p>22.09.2020</p>
+                                <p>
+                                    @lang('home.news.copernicus_accelerator.description')
+                                </p>
                             </div>
                         </li>
                     </a >
-                    <a href="#" class="media-link" target="_blank">
+                    <a href="https://www.dobrenoviny.sk/c/189562/chlapci-spod-tatier-mapovat-vyskyt-lykozrutov-a-nasledky-sucha" class="media-link" target="_blank">
                         <li class="media align-items-center my-4">
-                            <img class="mr-3" src="{{ url('images/zaitra-rocket.png') }}" width="100" alt="Generic placeholder image">
+                            <img class="mr-3" src="{{ url('images/dobre-noviny.png') }}" width="100" alt="Generic placeholder image">
                             <div class="media-body">
-                                <h3 class="mt-0 mb-1">Lorem ipsum dolor sit amet</h3>
-                                <p>12.12.2012</p>
+                                <h3 class="mt-0 mb-1">@lang('home.news.dobre_noviny.title')</h3>
+                                <p>09.09.2020</p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula nisi et tortor venenatis vestibulum. Nulla facilisi. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.
-                                    In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.
+                                    @lang('home.news.dobre_noviny.description')
+                                </p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="https://archiv.ihned.cz/c1-66801140-najdeme-kurovce-ci-slevy-v-okoli-propojime-satelity-kosmicka-agentura-podporila-dalsi-start-upy" class="media-link" target="_blank">
+                        <li class="media align-items-center my-4">
+                            <img class="mr-3" src="{{ url('images/hospodarske-noviny.svg') }}" width="100" alt="Hospodarske noviny logo">
+                            <div class="media-body">
+                                <h3 class="mt-0 mb-1">@lang('home.news.hospodarske_noviny.title')</h3>
+                                <p>12.08.2020 </p>
+                                <p>
+                                    @lang('home.news.hospodarske_noviny.description')
                                 </p>
                             </div>
                         </li>
@@ -34,10 +47,10 @@
                 </ul>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-md-12">
-                <button type="button" class="btn btn-outline-primary">LOAD MORE</button>
-            </div>
-        </div>
+{{--        <div class="row text-center">--}}
+{{--            <div class="col-md-12">--}}
+{{--                <button type="button" class="btn btn-outline-primary">LOAD MORE</button>--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </div>
 </section>
