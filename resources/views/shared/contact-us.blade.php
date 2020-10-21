@@ -7,7 +7,10 @@
 		<div class="col-md-6">
             <form id="contactForm" class="zaitra-form" action="{{ route('contact') }}" method="POST">
                 @csrf
-				<div class="form-group">
+                {{--Empty hidden input as basic spam prevention--}}
+                <input type="hidden" name="control" value="">
+
+                <div class="form-group">
 					<label for="name">Full name</label>
 					<input type="text" class="form-control" id="name" name="name" placeholder="Your name">
 				</div>
@@ -69,4 +72,5 @@
 			</div>
 		</div>
 	</div>
+  </div>
 </section>

@@ -15,9 +15,17 @@ class ContactController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'message' => 'required',
+            'control' => '',
         ]);
 
-        Mail::to('info@zaitra.io')->send(new ContactMail($validatedMessage));
+        if ($validatedMessage['control'] == null) {
+            // Contact form contains empty hidden input as basic spam prevention.
+            // Most of the bots automatically fills all form inputs and submits form.
+            // Check if control input still empty, and only then send contact email.
+            // Because the input is hidden for regular user, user will not fill it manually and therefore
+            // email is sent.
+            Mail::to('info@zaitra.io')->send(new ContactMail($validatedMessage));
+        }
 
         return back()->with('mail_send', 'Thanks for contacting us!');
     }
