@@ -65,6 +65,9 @@
     						<a href="https://www.instagram.com/zaitra.io/" target="_blank"><i class="fab fa-instagram fa-fw fa-3x social-i"></i></a>
 						</li>
 						<li class="list-inline-item">
+    						<a href="https://twitter.com/zaitra_io/" target="_blank"><i class="fab fa-twitter fa-fw fa-3x social-i"></i></a>
+						</li>
+						<li class="list-inline-item">
 						    <a href="https://github.com/zaitra" target="_blank"><i class="fab fa-github fa-fw fa-3x social-i"></i></a>
 						</li>
 					</ul>
