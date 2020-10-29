@@ -1,4 +1,4 @@
-<section id="news" class="section-grey">
+<section id="news" class="section-cyan">
 	<div class="container">
         <div class="row">
 			<div class="col-md-12">
@@ -8,25 +8,50 @@
         <div class="row">
             <div class="col-12">
                 <ul class="list-unstyled">
-                    <a href="#" class="media-link" target="_blank">
-                        <li class="media align-items-center">
-                            <img class="mr-3" src="{{ url('images/zaitra-rocket.png') }}" width="100" alt="Generic placeholder image">
+                    <a href="https://www.startupjobs.cz/newsroom/chytra-inventura-od-zaitra-ma-pomahat-lesnikum-druzicove-snimky-vcas-upozorni-na-sucho-i-skudce" class="media-link" target="_blank">
+                        <li class="media align-items-center my-4">
+                            <img class="mr-3" src="{{ url('images/startup-jobs.svg') }}" width="100" alt="Dobre noviny image">
                             <div class="media-body">
-                                <h3 class="mt-0 mb-1">Lorem ipsum dolor sit amet</h3>
-                                <p>12.12.2012</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula nisi et tortor venenatis vestibulum. Nulla facilisi. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.</p>
+                                <h3 class="mt-0 mb-1">@lang('home.news.startup_jobs.title')</h3>
+                                <p>19.10.2020</p>
+                                <p>
+                                    @lang('home.news.startup_jobs.description')
+                                </p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="https://www.svetchytre.cz/a/pE2Nq/druzicemi-proti-kurovci-jak-brnensky-startup-zachranuje-lesy" class="media-link" target="_blank">
+                        <li class="media align-items-center my-4">
+                            <img class="mr-3" src="{{ url('images/svet-chytre.svg') }}" width="100" alt="Dobre noviny image">
+                            <div class="media-body">
+                                <h3 class="mt-0 mb-1">@lang('home.news.svet_chytre.title')</h3>
+                                <p>09.10.2020</p>
+                                <p>
+                                    @lang('home.news.svet_chytre.description')
+                                </p>
+                            </div>
+                        </li>
+                    </a>
+                    <a href="https://accelerator.copernicus.eu/portfolio/zaitra/" class="media-link" target="_blank">
+                        <li class="media align-items-center">
+                            <img class="mr-3" src="{{ url('images/copernicus-accelerator.svg') }}" width="100" alt="Copernicus accelerator logo">
+                            <div class="media-body">
+                                <h3 class="mt-0 mb-1">@lang('home.news.copernicus_accelerator.title')</h3>
+                                <p>22.09.2020</p>
+                                <p>
+                                    @lang('home.news.copernicus_accelerator.description')
+                                </p>
                             </div>
                         </li>
                     </a >
-                    <a href="#" class="media-link" target="_blank">
+                    <a href="https://archiv.ihned.cz/c1-66801140-najdeme-kurovce-ci-slevy-v-okoli-propojime-satelity-kosmicka-agentura-podporila-dalsi-start-upy" class="media-link" target="_blank">
                         <li class="media align-items-center my-4">
-                            <img class="mr-3" src="{{ url('images/zaitra-rocket.png') }}" width="100" alt="Generic placeholder image">
+                            <img class="mr-3" src="{{ url('images/hospodarske-noviny.svg') }}" width="100" alt="Hospodarske noviny logo">
                             <div class="media-body">
-                                <h3 class="mt-0 mb-1">Lorem ipsum dolor sit amet</h3>
-                                <p>12.12.2012</p>
+                                <h3 class="mt-0 mb-1">@lang('home.news.hospodarske_noviny.title')</h3>
+                                <p>12.08.2020 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula nisi et tortor venenatis vestibulum. Nulla facilisi. In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.
-                                    In hac habitasse platea dictumst. In fringilla at tortor ut faucibus. Nulla nec est in mi aliquet accumsan.
+                                    @lang('home.news.hospodarske_noviny.description')
                                 </p>
                             </div>
                         </li>
@@ -34,10 +59,10 @@
                 </ul>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-md-12">
-                <button type="button" class="btn btn-outline-primary">LOAD MORE</button>
-            </div>
-        </div>
+{{--        <div class="row text-center">--}}
+{{--            <div class="col-md-12">--}}
+{{--                <button type="button" class="btn btn-outline-primary">LOAD MORE</button>--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </div>
 </section>
