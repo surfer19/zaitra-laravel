@@ -31,7 +31,13 @@
                         </ul>
                     </div>
                 @endif
-				<button type="submit" class="btn btn-default">Submit message</button>
+				<button type="submit"
+                        class="btn btn-default g-recaptcha"
+                        data-sitekey="6LcqjQwaAAAAAJucrnGlXHJmkQV1uwSLX9-BZ53z"
+                        data-callback="onSubmit"
+                        data-action="contact">
+                    Submit message
+                </button>
 			</form>
 		</div>
 		<div class="col-md-6 text-center align-self-center">

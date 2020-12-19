@@ -71,6 +71,11 @@
             'page_location': '{{ url()->current() }}',
             'page_path': '{{ Route::current()->uri == '/' ? '/' : '/' . Route::current()->uri }}'
         });
+
+        function onSubmit(token) {
+            console.log(token);
+            document.getElementById("contactForm").submit();
+        }
     </script>
 
     <script type="application/ld+json">

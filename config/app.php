@@ -2,6 +2,8 @@
 
 return [
 
+    'captcha_secret_key' => env('CAPTCHA_SECRET_KEY', ''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

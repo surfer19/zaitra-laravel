@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use ReCaptcha\ReCaptcha;
 
 class ContactController extends Controller
 {
@@ -16,6 +17,7 @@ class ContactController extends Controller
             'email' => 'required|email',
             'message' => 'required',
             'control' => '',
+            'g-recaptcha-response' => 'required',
         ]);
 
         if ($validatedMessage['control'] == null) {
@@ -24,9 +26,20 @@ class ContactController extends Controller
             // Check if control input still empty, and only then send contact email.
             // Because the input is hidden for regular user, user will not fill it manually and therefore
             // email is sent.
-            Mail::to('info@zaitra.io')->send(new ContactMail($validatedMessage));
+            if ($this->recaptcha_validate($request)) {
+                Mail::to('info@zaitra.io')->send(new ContactMail($validatedMessage));
+            }
         }
 
         return back()->with('mail_send', 'Thanks for contacting us!');
+    }
+
+    private function recaptcha_validate(Request $request): bool
+    {
+        $recaptcha_response = (new ReCaptcha(config('app.captcha_secret_key')))
+            ->setExpectedAction('contact')
+            ->setScoreThreshold(0.5)
+            ->verify($request->input('g-recaptcha-response'), $request->ip());
+        return $recaptcha_response->isSuccess();
     }
 }
