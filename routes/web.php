@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'home')->name('home');
 Route::view('/services', 'services')->name('services');
 Route::view('/products', 'products')->name('products');
+
+Route::post('/contact', 'ContactController@send')->name('contact');

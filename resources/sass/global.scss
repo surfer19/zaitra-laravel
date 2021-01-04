@@ -306,3 +306,18 @@ li.media:hover {
         padding: 0;
     }
 }
+
+.section-products {
+    background: url('/images/satellite.svg') no-repeat 110% 105% scroll;
+}
+
+.section-services {
+    background: url('/images/rocket.svg') no-repeat 102% 105% scroll;
+    background-size: 25% 28%;
+}
+
+@media (min-width: 1000px) {
+    .particles-bg {
+        background: url('/images/particles-bg.svg') no-repeat 105% -15% scroll;
+    }
+}

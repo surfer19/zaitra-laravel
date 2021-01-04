@@ -5,19 +5,29 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<form class="zaitra-form">
+            <form id="contactForm" class="zaitra-form" action="{{ route('contact') }}" method="POST">
+                @csrf
 				<div class="form-group">
 					<label for="name">Full name</label>
-					<input type="text" class="form-control" id="name" placeholder="Your name">
+					<input type="text" class="form-control" id="name" name="name" placeholder="Your name">
 				</div>
 				<div class="form-group">
 					<label for="email">Email</label>
-					<input type="text" class="form-control" id="email" placeholder="Your email">
+					<input type="text" class="form-control" id="email" name="email" placeholder="Your email">
 				</div>
 				<div class="form-group">
 					<label for="message">Message</label>
-					<textarea class="form-control" id="message" placeholder="Type message" rows="5"></textarea>
+					<textarea class="form-control" id="message" name="message" placeholder="Type message" rows="5"></textarea>
 				</div>
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
 				<button type="submit" class="btn btn-default">Submit message</button>
 			</form>
 		</div>

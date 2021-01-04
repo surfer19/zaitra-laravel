@@ -39,7 +39,6 @@
 				<a href="https://www.linkedin.com/in/vaclav-havlicek" target="_blank"><i class="fab fa-linkedin fa-fw fa-3x social-i icon"></i></a>
 			</div>
 		</div>
-		<!-- /.row -->
 		<div class="row row-team mt-4">
 			<div class="col-md-3 col-sm-6 text-center">
 				<img src="{{ url('images/majko.jpg') }}" class="img-name rounded-circle" title="Marian"/>
@@ -71,8 +70,6 @@
 				<p class="subtitle">We are always looking for talented people!</p>
 			</div>
 		</div>
-		<!-- /.row -->
     </div>
-    <!-- /.container -->
 </section>
 
